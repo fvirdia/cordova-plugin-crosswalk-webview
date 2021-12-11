@@ -14,7 +14,7 @@ module.exports = function(context) {
 
     /** @external */
     var fs = require('fs'),
-        path = context.requireCordovaModule('path'),
+        path = require('path'),
         et = context.requireCordovaModule('elementtree');
 
     /** @defaults */
